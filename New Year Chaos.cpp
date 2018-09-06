@@ -13,11 +13,13 @@ void minimumBribes(vector<int> q,int n) {
        
        key = q[i];
        j = i-1;
-    tmp=(q[i-1]-(i))>0?(q[i-1]-(i)):((i)-q[i-1]);
+       
+      //Checking for Too chaotic  
+       tmp=(q[i-1]-(i))>0?(q[i-1]-(i)):((i)-q[i-1]);
             if(tmp>2 && q[i-1]> i ){
                 ter=0;break;
             }
-       
+       //insertion sort
       while (j >= 0 && q[j] > key)
        {   
            q[j+1] = q[j];
