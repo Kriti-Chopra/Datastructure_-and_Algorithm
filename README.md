@@ -8,5 +8,5 @@ Gonna push solution of problems using C++
 If you want to contribute your solution or want to submit better version do fork and push it^_^
 
 
-if you want to push a solution of same problem the help would be appreciated {*_*}
+if you want to push a solution of same problem using some other language the help would be appreciated {*_*}
 Thanks
